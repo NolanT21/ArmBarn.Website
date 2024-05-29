@@ -20,6 +20,11 @@ img {
    /* padding-left: 20px; */
 }
 
+table.scrolltable{
+   border-collapse:separate;  
+   border-spacing: 0 100px;  
+}
+
 /* td{
    padding-bottom: 100px
  } */
