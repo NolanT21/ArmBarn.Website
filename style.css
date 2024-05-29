@@ -16,7 +16,8 @@ h3 {
 }
 
 img {
-   max-width: 100%;
+   max-width: 85%;
+   padding-left: 20px;
 }
 
 th, td {
