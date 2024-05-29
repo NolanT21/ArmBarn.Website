@@ -3,7 +3,9 @@ html * {
 }
 
 div.wrapper {
-   width:1200px;
+   width:100%;
+   padding: 20px 10px;
+   max-width: 900px;
    margin:0 auto;
 }
 
@@ -14,5 +16,5 @@ h3 {
 }
 
 th, td {
-   padding-left: 100px;
+   /* padding-left: 10%; */
  }
