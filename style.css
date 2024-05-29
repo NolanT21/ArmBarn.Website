@@ -2,7 +2,7 @@ html * {
    font-family: 'Lato', sans-serif;
 }
 
-div.wrap {
+div.wrapper {
    width:1000px;
    margin:0 auto;
 }
