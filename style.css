@@ -20,6 +20,6 @@ img {
    padding-left: 20px;
 }
 
-th, td {
-   /* padding-left: 10%; */
+td{
+   padding-bottom: 100px
  }
