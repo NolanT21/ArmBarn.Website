@@ -3,7 +3,7 @@ html * {
 }
 
 div.wrapper {
-   width:100%;
+   width:98%;
    padding: 20px 20px;
    max-width: 900px;
    margin:0 auto;
@@ -12,19 +12,20 @@ div.wrapper {
 h3 {
    color: #00AE48;
    font-size: 25px;
-   /* padding-bottom: -100px; */
 }
 
 img {
    max-width: 95%;
-   /* padding-left: 20px; */
+}
+
+.centerimg {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
 }
 
 table.scrolltable{
    border-collapse:separate;  
    border-spacing: 0 100px;  
 }
-
-/* td{
-   padding-bottom: 100px
- } */
