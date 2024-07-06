@@ -9,29 +9,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="ArmBarnLogoIcon.png" type="image/x-icon">
   </head>
-  <header>
-
-    <div class="headerdiv" id = "home">
-
-      <a href = "#home" style = "text-decoration: none; background-color: #171717">
-        <img src = "ArmBarnLogoWebsite.png" width="200px" style="background-color: #171717;">
-      </a>      
-
-      <ul class = "horizontal-header">
-        <li>
-          <a href = "#faq" style = "text-decoration: none; background-color: #171717">FAQ</a>
-        </li>
-        <li>|</li>
-        <li>
-          <a href = "#stats" style = "text-decoration: none; background-color: #171717">STATS</a>
-        </li>
-      </ul>
-
-    </div>
-
-  </header>
-
   <body>
+
+    <header>
+
+      <a href = "#home" style = "text-decoration: none; background-color: #171717;">
+        <img src = "ArmBarnLogoWebsite.png" width="200px" style="background-color: #171717; padding-left: 10px">
+      </a>
+  
+      <div class="navbar" id="topNavBar">
+        <a href="#faqs">FAQ</a>
+        <a href="#stats">STATS</a>
+        <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="navBarFunction()">&#9776;</a>
+      </div>
+  
+    </header>
 
     <div class = "body-container">
 
@@ -178,6 +170,17 @@
           <button class="lastaccordion">Change Input Options</button>
           
         </div>
+
+        <script>
+          function navBarFunction() {
+            var x = document.getElementById("topNavBar");
+            if (x.className === "navbar") {
+              x.className += " responsive";
+            } else {
+              x.className = "navbar";
+            }
+          }
+        </script>
 
         <script>
           var acc = document.getElementsByClassName("faqaccordion");

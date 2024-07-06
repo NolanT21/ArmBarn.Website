@@ -11,32 +11,31 @@
   </head>
 
   <body>
+    <header>
 
-    <div class = "quick-info">
+      <a href = "#home" style = "text-decoration: none; background-color: #171717;">
+        <img src = "ArmBarnLogoWebsite.png" width="200px" style="background-color: #171717;">
+      </a>
 
-      <div class = "block">
-
-        <span>
-          <i class="icon fa fa-bar-chart" style="font-size:60px; background-color: #58B2E7;"></i>
-        </span>
-
-        <span class = "block-title">
-          <h2>In-Depth Analytics</h2>
-        </span>
-
-        <span class = "block-description">
-          <p>
-            A wealth of statistics are accessible at all times while charting, even for pitchers that have exited from the current game.
-          </p>
-        </span>
-
-        <div class = "squarewrapper">
-          
-        </div>
-
+      <div class="navbar" id="topNavBar">
+        <a href="#faqs">FAQ</a>
+        <a href="#stats">STATS</a>
+        <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="navBarFunction()">&#9776;</a>
       </div>
+    </header>
 
-    </div>
+    
+
+    <script>
+      function navBarFunction() {
+        var x = document.getElementById("topNavBar");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script>
 
   </body>
 
