@@ -54,19 +54,10 @@ ul.horizontal-header li {
    flex-wrap: wrap;
    vertical-align: middle;
  }
-
- .float-img {
-   width: 280px;
-   height: 350px;
-   border-radius: 5px;
-   background-color: #00AE48;
-   padding: 1em;
-   margin: auto;
- }
  
  .phone-img {
   margin: auto;
-  height: 700px;
+  height: 80%;
   padding-bottom: 80px
  }
 
