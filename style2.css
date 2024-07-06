@@ -23,6 +23,12 @@ header{
   padding-right: 10px;
 }
 
+.navlogo {
+  background-color: #171717; 
+  padding-left: 10px;
+  width: 200px
+}
+
 .navbar a {
   float: right;
   display: inline;
@@ -92,6 +98,9 @@ header{
 }
 
 @media screen and (max-width: 600px) {
+  .phone-img {
+    height: 10px;
+  }
   .navbar a:not(:last-child), .dropdown .dropbtn {
     display: none;
   }
@@ -104,6 +113,9 @@ header{
 @media screen and (max-width: 600px) {
   .navbar a:first-child {
     margin-top: 52px;
+  }
+  .phone-img {
+    height: 500px;
   }
   .navbar.responsive {position: relative;}
   .navbar.responsive .icon {
@@ -129,7 +141,6 @@ header{
     text-align: right;
   }
 }
-
 
  body {
    margin: 0;
@@ -161,8 +172,8 @@ header{
  
  .phone-img {
   margin: auto;
-  height: 700px;
-  padding-bottom: 80px
+  padding-bottom: 80px;
+  height: 500px;
  }
 
 .home-text {
