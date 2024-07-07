@@ -4,6 +4,10 @@ html * {
    color: white
 }
 
+.header-wrapper {
+  background-color: #171717;
+}
+
 header{
    margin: 0;
    padding: 0;
@@ -12,6 +16,7 @@ header{
    color: white;
    font-size: 24px;
    font-weight: bold;
+   max-width: 1500px;
 }
 
 .navbar {
@@ -21,6 +26,7 @@ header{
   overflow: hidden;
   background-color: #171717;
   padding-right: 10px;
+  
 }
 
 .navlogo {
@@ -173,7 +179,7 @@ header{
  }
  
  .phone-img {
-  width: 85%;
+  width: 90%;
   max-width: 600px;
   height: auto;
   display: inline;;
@@ -200,7 +206,7 @@ header{
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  /* display: block; */
   width: 30%;
 }
 
@@ -351,7 +357,7 @@ header{
 
 .glossary-wrapper {
   margin-bottom: 35px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .glossary {
