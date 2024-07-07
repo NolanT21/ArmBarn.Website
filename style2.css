@@ -165,23 +165,14 @@ header{
    vertical-align: middle;
  }
 
- .float-img {
-   width: 280px;
-   height: 350px;
-   border-radius: 5px;
-   background-color: #00AE48;
-   padding: 1em;
-   margin: auto;
- }
-
  .phone-img-wrapper{
   margin-left: auto;
   margin-right: auto;
-  place-items: center;
+
  }
  
  .phone-img {
-  width: 90%;
+  width: 95%;
   max-width: 600px;
   height: auto;
   display: block;
