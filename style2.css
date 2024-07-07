@@ -209,7 +209,7 @@ header{
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 30%;
+  width: 200px;
 }
 
 .quick-info {
@@ -225,7 +225,6 @@ header{
   margin: auto;
   margin-bottom: 50px;
   width: 420px;
-  /* height: 270px; */
   padding: 20px 30px;
   background-color: #1a1a1a;
   border-radius: 10px;
@@ -236,7 +235,6 @@ header{
   text-align: center;
   background-color: #1a1a1a;
   margin-top: 30px;
-  /* margin-left: 20px; */
 }
 
 .block3 > p {
@@ -359,17 +357,20 @@ header{
 
 .glossary-wrapper {
   margin-bottom: 35px;
-  /* margin-left: 50px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .glossary {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .stat-desc-container {
-  display: inline-block;
+  display: block;
   width: 300px;
 
   padding: 10px;
@@ -379,7 +380,6 @@ header{
   border-color: white;
   border-radius: 5px;
   background-color: #1a1a1a;
-
 }
 
 .stat-desc-container > h3, .stat-desc-container > p {
