@@ -1,13 +1,209 @@
-<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/ElToro.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ArmBarn</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/svg+xml" href="./ElToro.png" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <main>
+      <div class = "landing-area-background">
+        <div class = "landing-content">
+          <div style="display: flex; align-items: center; gap: 16px; padding-top: 20px; margin-left: 15px;">
+
+            <a href = "./index.html"><img src = "./ElToro.png" alt="ElToro" class="header-logo" /></a>
+
+            <div style = "display: inline; margin: 0; padding: 8">
+
+                <h3 class = "header-title" style=" margin: 0; margin-bottom: 2px"> ArmBarn </h3>
+                <p class = "header-subtitle" style=" margin: 0 "> Modern Pitch Charting </p>
+
+            </div>
+                  
+          </div>
+
+          <div class = "landing-container">
+
+            <div class = "landing-description">
+
+                <h1>Level Up your Pitch Charting</h1>
+
+                <p >
+                    Ditch the paper charts and start tracking your pitching appearances in a modern style. Get an abundance of metrics, available in real time. Store pitcher profiles and save games, keeping all of your data in one location. 
+                </p>
+
+                <a href="https://apps.apple.com/us/app/armbarn/id6503445937">
+                    <img src="./DownloadButton.svg" class="download-button" alt="Download Button" />
+                </a>
+
+            </div>
+
+            <div class = "landing-image-container">
+
+                <img class = "phone-image-left" src="./MainDashboard.png" alt="Home Screen" />
+
+                <img class = "phone-image-right" src="./InGameStats.png" alt="In-Game Stats Screen" />
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+
+        <div class = "feature-layout">
+
+            <div class = "feature-container">
+
+                <h4> Pitch Tracking </h4>
+
+                <h2> No more paper charts</h2>
+
+                <p class = "feature-description"> 
+                    Charting pitchers has never been easier, follow the prompts and let everything else take care of itself. Change pitchers without needing to start a new chart. Enter game information and edit pitcher profiles as needed. 
+                    <br></br>
+                    Use the scoreboard area to keep track of what has been recorded. Check the count, undo the previous event, end/save games and more. 
+                </p>
+
+            </div>
+
+            <img class = "feature-image" src="./PlainDashboard.png" alt="Plain Dashboard" />
+
+        </div>
+
+        <div class = "feature-layout">
+
+            <div class = "feature-container">
+
+                <h4> Detailed Stats </h4>
+
+                <h2> Who's on first </h2>
+
+                <p class = "feature-description"> 
+                    ArmBarn tabulates all the statistics you could ask for. View the team summary with player breakdowns, filter events for in-depth analysis, and view a line-by-line summary of every event recorded. 
+                </p>
+
+            </div>
+
+            <div class = "overlay-image-container">
+                <div class = "underlay-image">
+                    <img class = "feature-image" src="./StatsRight.png" alt="Stats Right" />
+                </div>
+
+                <div class = "overlay-image">
+                    <img class = "feature-image" src="./StatsLeft.png" alt="Stats Left" />
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class = "feature-layout">
+
+            <div class = "feature-container">
+
+                <h4> Saving and sharing data </h4>
+
+                <h2> Safe at home</h2>
+
+                <p class = "feature-description"> 
+                    Keep all your pitching data in one location. Store pitcher profiles and save charted games, viewable at anytime. Sync data to share across devices and keep data consistent. 
+                </p>
+
+            </div>
+
+            <div class = "save-features-image-container">
+                <img class = "save-feature-image" src="./Pitchers.png" alt="Saved Pitchers" />
+                <img class = "save-feature-image" src="./SavedGames.png" alt="Saved Games" />
+            </div>
+
+        </div>
+
+      </div>
+
+        <div class = "more-features-background">
+
+          <h2 class = "more-features-header"> And more... </h2>
+
+          <div class = "more-features-container">
+
+              <div class = "more-features-section">   
+
+                  <h4> Privacy </h4>
+
+                  <p> 
+                      Your data is only accessible to you. ArmBarn never sells your data.
+                      Feel secure that your information is only accessible to you.
+                  </p>
+
+              </div>
+
+              <div class = "more-features-section">   
+
+                  <h4> Ad-free </h4>
+
+                  <p> 
+                      Your focus should be on the field, not clicking through ads and dismissing popups. 
+                  </p>
+
+              </div>
+
+              <div class = "more-features-section">   
+
+                  <h4> Works Anywhere </h4>
+
+                  <p> 
+                      At your home-field or out in tim-buck-too, no internet connection required. All data can be synced at a later time. 
+                  </p>
+
+              </div>
+
+          </div>
+
+          <div class = "download-container"> 
+                  
+              <h2> Start Charting Today with Armbarn</h2>
+
+              <p> From rec-leagues to the pros, ArmBarn is your companion to streamline your pitch charting process. </p>
+
+              <p> Avaliable on iOS</p>
+
+              <a href="https://apps.apple.com/us/app/armbarn/id6503445937">
+                  <img src="./DownloadButton.svg" class="download-button" alt="Download Button" />
+              </a>
+              
+          </div>
+
+      </div>
+
+      <footer>
+        <div>
+          <hr class="my-horizontal-line" />
+          <div class = "footer-links">
+
+              <div class = "footer-logo-container">
+                  <a href="./index.html"><img src = "./ElToro.png" alt="ElToro" class="footer-logo" /></a>
+              </div>
+
+              <a href="./privatepolicy.html"> <p>Privacy Policy</p></a>
+              
+  
+              <a href="./termsofservice.html"> <p>Terms of Service</p></a>
+
+              <a href="./helpandsupport.html"> <p>Help and Support</p></a>
+
+            </div>
+        </div>
+      </footer>
+
+      <hr class="my-horizontal-line" />
+      <p class = "footer-text">&copy; LGT Productions</p>
+
+    </main>
+    <script src="index.js"></script>
   </body>
 </html>
