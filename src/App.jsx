@@ -8,7 +8,7 @@ function App() {
 
   return(
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/ArmBarn.Website">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
