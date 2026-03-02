@@ -6,27 +6,24 @@
     <title>ArmBarn</title>
     <!-- <link rel="stylesheet" href="./style.css"> -->
     <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" type="image/svg+xml" href="./ElToro.png" />
+    <link rel="icon" type="image/svg+xml" href="./ElToro_rounded.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <main>
 
-        <div class = "landing-content">
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="./index.html" class="nav-brand">
+          <img src="./ElToro.png" alt="ElToro" class="nav-logo" />
+          <span class="nav-name">ArmBarn</span>
+        </a>
+      </div>
+    </nav>
 
-            <div style="display: flex; align-items: center; gap: 16px; padding-top: 20px; margin-left: 15px;">
-
-                <a href = "./index.html"><img src = "./ElToro.png" alt="ElToro" class="header-logo" /></a>
-
-                <div style = "display: inline; margin: 0; padding: 8">
-
-                    <h3 class = "header-title" style=" margin: 0; margin-bottom: 2px"> ArmBarn </h3>
-                    <p class = "header-subtitle" style=" margin: 0 "> Modern Pitch Charting </p>
-
-                </div>
-                  
-            </div>
-
-        </div>
+    <main class = "light-page">
 
       <div class = "private-policy-container">
         <div class = "private-policy-contents">
@@ -142,28 +139,22 @@
         </div>
     </div>
 
-        <footer>
-            <div>
-            <hr class="my-horizontal-line" />
-            <div class = "footer-links">
-
-                <div class = "footer-logo-container">
-                    <a href="./index.html"><img src = "./ElToro.png" alt="ElToro" class="footer-logo" /></a>
-                </div>
-
-                <a href="./privatepolicy.html"> <p>Privacy Policy</p></a>
-                
-    
-                <a href="./termsofservice.html"> <p>Terms of Service</p></a>
-
-                <a href="./helpandsupport.html"> <p>Help and Support</p></a>
-
-                </div>
-            </div>
-        </footer>
-
-        <hr class="my-horizontal-line" />
-        <p class = "footer-text">&copy; LGT Productions</p>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer-rule"></div>
+        <div class="footer-inner">
+          <a href="./index.html" class="footer-brand">
+            <img src="./ElToro.png" alt="ElToro" class="footer-logo" />
+          </a>
+          <nav class="footer-nav">
+            <a href="./privatepolicy.html">Privacy Policy</a>
+            <a href="./termsofservice.html">Terms of Service</a>
+            <a href="./helpandsupport.html">Help &amp; Support</a>
+          </nav>
+        </div>
+        <div class="footer-rule"></div>
+        <p class="footer-copy">&copy; LGT Productions</p>
+      </footer>
 
     </main>
     <script src="index.js"></script>
