@@ -709,18 +709,22 @@ img {
 
   .hero-phones {
     align-self: center;
-    /* width: 100%; */
-    justify-content: center;
-    padding-right: 100px;
+    width: 280px;        /* fixed width that fits small screens */
+    height: 380px;       /* scale down proportionally */
+    padding-right: 0;    /* remove the old offset */
   }
 
   .phone--front {
-    width: 180px;
-  }
-  .phone--back {
     width: 160px;
-    /* right: -100px; */
-    bottom: 60px;
+    left: 0;
+    bottom: 0;
+  }
+
+  .phone--back {
+    width: 145px;
+    right: 0;
+    top: 0;
+    bottom: auto;
   }
 
   .hero-text {
@@ -780,15 +784,20 @@ img {
 }
 
 @media (max-width: 480px) {
-  .phone--front {
-    width: 150px;
+  .hero-phones {
+    width: 230px;
+    height: 310px;
   }
-  .phone--back {
+
+  .phone--front {
     width: 130px;
-    right: -80px;
-    bottom: 50px;
+  }
+
+  .phone--back {
+    width: 118px;
   }
 }
+
 
 /* --- Privacy Policy Container --- */
 .private-policy-container, .terms-of-service-container {
